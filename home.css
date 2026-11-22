@@ -386,10 +386,6 @@ main {
   .under {
     flex-direction: column;
   }
-
-  .card-set {
-    width: 90%;
-  }
 }
 
 @media (min-width: 501px) and (max-width: 745px) {
