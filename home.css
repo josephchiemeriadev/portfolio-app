@@ -224,11 +224,12 @@ main {
   background: #101a3d;
   border-radius: 10px;
   justify-content: center;
-  padding: 20px;
+  padding: 30px;
   position: absolute;
   top: 79%;
   left: -15%;
   z-index: 800;
+  width: 100%;
 }
 
 .learn {
@@ -384,6 +385,10 @@ main {
 
   .under {
     flex-direction: column;
+  }
+
+  .card-set {
+    width: 90%;
   }
 }
 
