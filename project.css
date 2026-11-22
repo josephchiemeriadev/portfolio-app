@@ -1,0 +1,219 @@
+body {
+  background: #f5f8ff;
+  color: #172b68;
+}
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+.home-icon {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    #0b1228 0%,
+    #101a3d 35%,
+    #384876 65%,
+    #193a91 100%
+  );
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: white;
+}
+
+.logo-icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: #8b7cff;
+}
+
+.logo-icon span {
+  color: white;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+.active {
+  color: #8b7cff;
+}
+
+.hire {
+  background: #8b7cff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+}
+
+.hire:hover {
+  background: #172b68;
+}
+
+.hire a {
+  font-size: 13px;
+}
+
+main {
+  padding-top: 70px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.para1 {
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.one-word {
+  font-style: italic;
+
+  font-size: 18px;
+  transform: rotate(-20deg);
+}
+
+.one-word p {
+  margin: 0;
+}
+
+.para6 {
+  background: #ebeefd;
+  color: #172b68;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.rounds {
+  position: relative;
+}
+
+.round1 {
+  background: #ebeefd;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: -70px;
+  right: 150px;
+}
+
+.round2 {
+  background: #7a5bfd;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.image-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.image-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-card h5,
+p {
+  margin: 0;
+  align-self: flex-start;
+  padding: 5px;
+}
+
+.img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.button a {
+  width: 100%;
+}
+
+.btn {
+  background: #4f46e5;
+  color: white;
+}
+
+button {
+  width: 100%;
+  border: 1px solid #7a5bfd;
+  background: none;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

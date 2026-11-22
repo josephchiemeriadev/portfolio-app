@@ -1,0 +1,662 @@
+body {
+  background: #f5f8ff;
+  color: #172b68;
+}
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+.home-icon {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    #0b1228 0%,
+    #101a3d 35%,
+    #384876 65%,
+    #193a91 100%
+  );
+  width: 100%;
+
+  z-index: 1000;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: white;
+}
+
+.logo-icon {
+  font-size: 30px;
+  font-weight: bold;
+  color: #8b7cff;
+}
+
+.logo-icon span {
+  color: white;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+.active {
+  color: #8b7cff;
+}
+
+.hire {
+  background: #8b7cff;
+  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+}
+
+.hire:hover {
+  background: #172b68;
+}
+
+.hire a {
+  font-size: 13px;
+}
+
+main {
+  padding-top: 70px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.para1 {
+  margin-bottom: 10px;
+  color: #4f46e5;
+}
+
+.tool {
+  color: #4f46e5;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  background: white;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 13px;
+  margin-bottom: 10px;
+}
+
+.cards i {
+  color: #7a5bfd;
+  background: #e5e7fc;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.cards p:first-of-type {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.cards p:nth-of-type(2) {
+  margin: 0;
+}
+
+.images {
+  position: relative;
+}
+
+.circle {
+  background: #7a5bfd;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.round1 {
+  background: #7a5bfd;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 95%;
+}
+
+.round2 {
+  background: #7a5bfd;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+}
+
+.image {
+  width: 220px;
+  z-index: 500;
+  position: relative;
+}
+
+.stages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;
+
+  border-radius: 10px;
+}
+
+.stage {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.first i {
+  color: #7a5bfd;
+  background: #e5e7fc;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.end {
+  font-size: 10px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 19px 79px 119px 1fr;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.cotainer {
+  width: 100px;
+  height: 5px;
+  background: #e5e7fc;
+  border-radius: 20px;
+}
+
+.fill {
+  background: #8b7cff;
+  width: 100%;
+  height: 5px;
+  border-radius: 20px;
+}
+
+.html {
+  width: 95%;
+}
+
+.css {
+  width: 90%;
+}
+
+.javascript {
+  width: 85%;
+}
+
+.react {
+  width: 80%;
+}
+
+.node {
+  width: 75%;
+}
+
+.express {
+  width: 65%;
+}
+
+.postgresql {
+  width: 65%;
+}
+
+.sql {
+  width: 65%;
+}
+
+.vscode {
+  width: 90%;
+}
+
+.github {
+  width: 80%;
+}
+
+.figma {
+  width: 65%;
+}
+
+.netlify {
+  width: 80%;
+}
+
+.skill-learning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.other-skill {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.others {
+  display: grid;
+  grid-template-columns: 19px 110px 210px 1fr;
+  align-items: center;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.ends {
+  font-size: 13px;
+}
+
+.width {
+  width: 200px;
+  height: 5px;
+  background: #e5e7fc;
+  border-radius: 20px;
+}
+
+.full {
+  background: #8b7cff;
+  width: 100%;
+  height: 5px;
+  border-radius: 20px;
+}
+
+.design {
+  width: 90%;
+}
+
+.solving {
+  width: 70%;
+}
+
+.communication {
+  width: 85%;
+}
+
+.time {
+  width: 70%;
+}
+
+.typescript {
+  width: 10%;
+}
+
+.next {
+  width: 10%;
+}
+
+.tailwind {
+  width: 10%;
+}
+
+.python {
+  width: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  background: linear-gradient(
+    135deg,
+    #0b1228 0%,
+    #101a3d 35%,
+    #384876 65%,
+    #193a91 100%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  color: white;
+  margin: 0;
+  font-size: 15px;
+}
+.footer-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-box i {
+  background: #8b7cff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.footer p {
+  margin: 0;
+  color: #8b7cff;
+  font-size: 13px;
+}
+
+.btn {
+  background: #8b7cff;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+}
+
+.btn a {
+  font-size: 12px;
+}
+
+.btn:hover {
+  background: #172b68;
+}
+
+@media (min-width: 0px) and (max-width: 500px) {
+  main {
+    height: 100%;
+  }
+  .top {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+
+  .menu span {
+    background: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    visibility: hidden;
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+    background: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .home-icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .home-icon i {
+    font-size: 25px;
+    color: gray;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .card-box {
+    flex-direction: column;
+    width: 100%;
+    gap: 1px;
+  }
+
+  .cards {
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+  .stages {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stage {
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+  .boxes {
+    grid-template-columns: 19px 2fr 4fr 1fr;
+    justify-content: center;
+  }
+
+  .cotainer {
+    width: 110px;
+  }
+
+  .skill-learning {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .other-skill {
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+  .width {
+    width: 110px;
+  }
+
+  .others {
+    grid-template-columns: 19px 3fr 4fr 1fr;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .btn a {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 745px) {
+  main {
+    height: 100%;
+  }
+  .top {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+
+  .menu span {
+    background: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    visibility: hidden;
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+    background: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .home-icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .home-icon i {
+    font-size: 25px;
+    color: gray;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .card-box {
+    flex-direction: column;
+    width: 100%;
+    gap: 1px;
+  }
+
+  .cards {
+    width: 99%;
+    box-sizing: border-box;
+  }
+
+  .stages {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stage {
+    width: 70%;
+    box-sizing: border-box;
+  }
+
+  .boxes {
+    grid-template-columns: 21px 2fr 4fr 1fr;
+    justify-content: center;
+  }
+
+  .cotainer {
+    width: 120px;
+  }
+
+  .skill-learning {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .other-skill {
+    width: 70%;
+    box-sizing: border-box;
+  }
+
+  .width {
+    width: 100px;
+  }
+
+  .others {
+    grid-template-columns: 19px 3fr 4fr 1fr;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  .btn a {
+    white-space: nowrap;
+  }
+}
