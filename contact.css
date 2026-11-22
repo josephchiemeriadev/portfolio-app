@@ -19,6 +19,18 @@ header {
   z-index: 1000;
 }
 
+.menu {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+.home-icon {
+  display: none;
+}
+
 .top {
   display: flex;
   justify-content: space-between;

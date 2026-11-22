@@ -217,3 +217,148 @@ button {
   justify-content: center;
   gap: 5px;
 }
+
+@media (min-width: 0px) and (max-width: 468px) {
+  main {
+    height: 100%;
+  }
+  .top {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+
+  .menu span {
+    background: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    visibility: hidden;
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+    background: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .home-icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .home-icon i {
+    font-size: 25px;
+    color: gray;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .image-cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 469px) and (max-width: 768px) {
+  main {
+    height: 100%;
+  }
+  .top {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+  }
+
+  .menu span {
+    background: white;
+    width: 20px;
+    height: 3px;
+    margin-bottom: 3px;
+    display: block;
+  }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+    visibility: hidden;
+    display: block;
+  }
+
+  nav {
+    flex-direction: column;
+    background: navy;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 20px;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-in-out;
+  }
+
+  .home-icon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+
+  .home-icon i {
+    font-size: 25px;
+    color: gray;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .project-cards {
+    width: 80%;
+    margin: auto;
+  }
+
+  .image-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button a {
+    width: 80%;
+    margin: auto;
+  }
+
+  button {
+    width: 80%;
+    margin: auto;
+  }
+}
