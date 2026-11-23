@@ -418,6 +418,9 @@ summary::after {
     color: gray;
   }
 
+  .input-box {
+    flex-direction: column;
+  }
   .main {
     flex-direction: column;
     margin: 10px;
