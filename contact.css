@@ -420,6 +420,7 @@ summary::after {
 
   .input-box {
     flex-direction: column;
+    width: 100%;
   }
   .main {
     flex-direction: column;
